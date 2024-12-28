@@ -1,0 +1,6 @@
+Flask
+Pillow
+torch
+torchvision
+opencv-python
+numpy
