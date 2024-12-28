@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeless Moments: Image Restoration
+    </title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Timeless Moments: Image Restoration</h1>
+        <div id="input">
+            <form id="upload-form" enctype="multipart/form-data">
+                <label for="upload">Choose Image</label>
+                <input id="upload" name="image" type="file" accept="image/*">
+                <span id="file-name">No file chosen</span>
+                <button type="submit">Restore</button>
+            </form>
+        </div>
+        <div id="output-section">
+            <div class="image-container">
+                <h3>Input Image</h3>
+                <img id="input-image" class="dimmed" src="" alt="Input Image" style="display: none;">
+            </div>
+            <div class="image-container">
+                <h3>Restored Image</h3>
+                <img id="restored-image" src="" alt="Restored Image" style="display: none;">
+                <p id="restoring-text" style="display: none;">Restoring image...</p>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
